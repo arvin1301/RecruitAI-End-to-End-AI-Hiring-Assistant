@@ -32,6 +32,8 @@ RecruitAI addresses these challenges by automating the entire recruitment workfl
    • AI-powered recommendation
 
 
+
+
 #### 2. Candidate Search
    
    • Semantic candidate search
@@ -42,6 +44,8 @@ RecruitAI addresses these challenges by automating the entire recruitment workfl
 
 Example:
 Machine Learning Engineer with NLP experience
+
+
 
 
 #### 3. AI Text Interview
@@ -55,6 +59,8 @@ Machine Learning Engineer with NLP experience
    • Communication evaluation
 
    • Accuracy assessment
+
+
 
    
 #### 4. AI Voice Interview
@@ -128,6 +134,8 @@ Generates:
 
   
 
+
+
                 
 ### Application Pages
 
@@ -144,10 +152,12 @@ What It Does
    • Skill Gap Analysis
 
 
+
    
 #### Data Flow
 
 <img width="1024" height="1536" alt="e89235e6-8485-4058-8099-7b2471324b9b" src="https://github.com/user-attachments/assets/570b0061-8f3b-41af-8b54-7e44bf88e7a8" />
+
 
 
 
@@ -160,6 +170,7 @@ What It Does
    • Missing Skills
    
    • Recommendation
+
 
 
 
@@ -393,33 +404,10 @@ Responsible for:
 
     
 ## Project Structure
-AI-Recruitment-Agent/
 
-├── app.py
 
-├── pages/
-│   ├── 1_Resume_Screening.py
-│   ├── 2_Candidate_Search.py
-│   ├── 3_Interview_Center.py
-│   ├── 4_Interview_Report.py
-│   └── 5_HR_Dashboard.py
+<img width="1402" height="1122" alt="4ee89e78-ac2d-4ac5-9111-49c5610c5215" src="https://github.com/user-attachments/assets/87479e91-6186-4cfe-9f5e-4f76d90a74a1" />
 
-├── agents/
-│   ├── recruiter_agent.py
-│   ├── qdrant_agent.py
-│   ├── interview_agent.py
-│   ├── voice_agent.py
-│   ├── tts_agent.py
-│   ├── proctoring_agent.py
-│   ├── report_agent.py
-│   └── hr_agent.py
-
-├── data/
-├── audio/
-├── transcripts/
-├── models/
-
-└── .env
 
 
 
@@ -486,7 +474,7 @@ The current version exposes:
 
    • Interview Report Page
    
-   •HR Dashboard
+   • HR Dashboard
 
 for demonstration purposes.
 
@@ -494,70 +482,112 @@ for demonstration purposes.
 In a production environment:
 
 
-Candidate Access
-Resume Submission
-      ↓
-Interview
-      ↓
-Completion
-Recruiter Access
-Resume Screening
-      ↓
-Candidate Search
-      ↓
-Interview Report
-HR Access
-HR Dashboard
-      ↓
-Hiring Decision
+
+<img width="1536" height="1024" alt="06465353-b548-434e-8fa0-ec5fc8719897" src="https://github.com/user-attachments/assets/81e8cfa5-7f8f-4f12-ba12-6e3e256f4eca" />
 
 Future versions will implement:
 
-Authentication
-Authorization
-Role-Based Access Control (RBAC)
-Candidate Portal
-Recruiter Portal
-HR Portal
+   • Authentication
+   
+   • Authorization
+   
+   • Role-Based Access Control (RBAC)
+   
+   • Candidate Portal
+   
+   • Recruiter Portal
+   
+   • HR Portal
 
 to restrict access appropriately.
 
-🚀 Future Scope
-AI Interview Improvements
-Dynamic Follow-Up Questions
-Adaptive Interviews
-Difficulty Levels (Easy, Medium, Hard, Expert)
-Better LLM Support
-GPT-4
-Claude
-Gemini
-DeepSeek
-Llama
-Advanced AI Proctoring
-Eye Tracking
-Gaze Detection
-Head Pose Estimation
-Face Verification
-Emotion Detection
-Browser Tab Detection
-Screen Monitoring
-Communication Automation
-Interview Invitations
-Reminder Emails
-Offer Letters
-Rejection Emails
-Onboarding Emails
-Integrations
-Zoom
-Microsoft Teams
-Google Meet
-ATS Platforms (Workday, Greenhouse, Lever)
-Analytics
-Candidate Ranking
-Hiring Trends
-Skill Gap Analysis
-Recruitment KPIs
-👨‍💻 Author
+##  Future Scope
+
+#### AI Interview Improvements
+
+   • Dynamic Follow-Up Questions
+   
+   • Adaptive Interviews
+   
+   • Difficulty Levels (Easy, Medium, Hard, Expert)
+
+   
+#### Better LLM Support
+
+   • GPT-4
+   
+   • Claude
+   
+   • Gemini
+   
+   • DeepSeek
+   
+   • Llama
+
+
+   
+#### Advanced AI Proctoring
+
+   • Eye Tracking
+   
+   • Gaze Detection
+   
+   • Head Pose Estimation
+   
+   • Face Verification
+   
+   • Emotion Detection
+   
+   • Browser Tab Detection
+   
+   • Screen Monitoring
+
+   
+#### Communication Automation
+
+   • Interview Invitations
+   
+   • Reminder Emails
+   
+   • Offer Letters
+   
+   • Rejection Emails
+   
+   • Onboarding Emails
+
+   
+#### Integrations
+   • Zoom
+   
+   • Microsoft Teams
+   
+   • Google Meet
+   
+   • ATS Platforms (Workday, Greenhouse, Lever)
+
+
+#### Analytics
+   • Candidate Ranking
+   
+   • Hiring Trends
+   
+   • Skill Gap Analysis
+   
+   • Recruitment KPIs
+
+
+
+### Screen record
+
+
+
+https://github.com/user-attachments/assets/dda5fbe1-5dcd-49ce-b76a-b16c4fedeed2
+
+https://github.com/user-attachments/assets/e2875523-30a4-4ff3-8086-975f74684114
+
+
+
+### Author
 
 PH ARVIND SHARMA
 
@@ -565,10 +595,16 @@ AI Engineer | Machine Learning Engineer | Data Scientist
 
 Focused on:
 
-Generative AI
-Multi-Agent Systems
-NLP
-Computer Vision
-Speech AI
-MLOps
-End-to-End AI Applications
+   • Generative AI
+   
+   • Multi-Agent Systems
+   
+   • NLP
+   
+   • Computer Vision
+   
+   • Speech AI
+   
+   • MLOps
+   
+   • End-to-End AI Applications
