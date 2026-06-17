@@ -146,23 +146,22 @@ What It Does
 
    
 #### Data Flow
-Resume Upload
-      ↓
-AI Reads Resume
-      ↓
-Compare With Job Description
-      ↓
-Generate Score
-      ↓
-Store Candidate Profile
+
+<img width="1024" height="1536" alt="e89235e6-8485-4058-8099-7b2471324b9b" src="https://github.com/user-attachments/assets/570b0061-8f3b-41af-8b54-7e44bf88e7a8" />
+
 
 
 #### Output
 
    • Resume Score
+   
    • Strengths
+   
    • Missing Skills
+   
    • Recommendation
+
+
 
 
 Page 2 – Candidate Search
@@ -170,185 +169,230 @@ What It Does
 
 Recruiters can search candidates using natural language.
 
-Data Flow
-Recruiter Search
-      ↓
-AI Understands Query
-      ↓
-Qdrant Search
-      ↓
-Matching Candidates
-Output
-Candidate Profiles
-Candidate Scores
-Similarity Ranking
+#### Data Flow
+
+<img width="1122" height="1402" alt="5aa9a586-19db-4a20-a059-83668d0a9818" src="https://github.com/user-attachments/assets/d96d8c5f-8ce6-4cd4-8387-8473068879b2" />
+
+
+
+#### Output
+
+   • Candidate Profiles
+   
+   • Candidate Scores
+   
+   • Similarity Ranking
+
+
+
+   
 Page 3 – Interview Center
-Text Interview
-Candidate Profile
-      ↓
-Question Generation
-      ↓
-Candidate Answers
-      ↓
-AI Evaluation
-Voice Interview
-AI Asks Question
-      ↓
-Candidate Speaks
-      ↓
-Whisper Converts Speech
-      ↓
-AI Evaluation
-AI Proctoring
-Webcam Feed
-      ↓
-YOLOv10 + OpenCV
-      ↓
-Suspicious Activity Detection
-      ↓
-Risk Score
-Output
-Text Interview Score
-Voice Interview Score
-Risk Score
+
+#### Text Interview
+
+<img width="1122" height="1402" alt="87188a0f-e607-46ac-9d75-60ac8cead408" src="https://github.com/user-attachments/assets/fc3d90ee-ab6e-4a64-a956-4c2901e11774" />
+
+
+
+#### Voice Interview
+
+<img width="1122" height="1402" alt="41462430-25c4-40d2-9c9c-db6a26e72ae9" src="https://github.com/user-attachments/assets/d04ccb01-423f-4628-a31f-59cdc409a578" />
+
+
+
+#### AI Proctoring
+
+
+<img width="1122" height="1402" alt="e6ce7b28-f1e6-4877-9580-ceb540331cc4" src="https://github.com/user-attachments/assets/b1b45f5a-9674-4265-8c18-63eb43cd33cf" />
+
+
+
+#### Output
+
+   • Text Interview Score
+   
+   • Voice Interview Score
+   
+   • Risk Score
+
+
+
 Page 4 – Interview Report
-Data Flow
-Text Score
-      ↓
 
-Voice Score
-      ↓
+<img width="1024" height="1536" alt="3157710e-ba7b-4602-b1a6-77629f21befe" src="https://github.com/user-attachments/assets/033a5064-fb5b-43e9-a887-dbb28b9a6735" />
 
-Risk Score
-      ↓
 
-Report Agent
-      ↓
 
-Final Interview Report
-Output
-Final Score
-Technical Assessment
-Communication Assessment
-Risk Assessment
-Recommendation
+
+#### Output
+
+   • Final Score
+   
+   • Technical Assessment
+   
+   • Communication Assessment
+   
+   • Risk Assessment
+   
+   • Recommendation
+
+
 Page 5 – HR Dashboard
-Data Flow
-Interview Report
-      ↓
-HR Agent
-      ↓
-Hiring Analysis
-      ↓
-Final Decision
-Output
-Selected / Rejected
-Salary Band
-HR Summary
-Joining Recommendation
-🤖 Multi-Agent Architecture
-RecruiterAgent
+
+
+<img width="1122" height="1402" alt="99d9c260-67fb-402c-afbb-7079175bd62f" src="https://github.com/user-attachments/assets/61072894-efa7-41f9-923c-c868450c143a" />
+
+
+
+### Output
+
+   • Selected / Rejected
+   
+   • Salary Band
+   
+   • HR Summary
+   
+   • Joining Recommendation
+
+   
+## Multi-Agent Architecture
+
+### RecruiterAgent
 
 Responsible for:
 
-Resume Evaluation
-Skill Gap Analysis
-Candidate Scoring
-QdrantAgent
+  • Resume Evaluation
+  
+  • Skill Gap Analysis
+  
+  • Candidate Scoring
+
+  
+### QdrantAgent
 
 Responsible for:
 
-Candidate Storage
-Semantic Search
-Candidate Retrieval
-InterviewAgent
+   • Candidate Storage
+   
+   • Semantic Search
+   
+   • Candidate Retrieval
+
+   
+### InterviewAgent
 
 Responsible for:
 
-Question Generation
-Answer Evaluation
-Interview Scoring
-VoiceAgent
+   • Question Generation
+   
+   • Answer Evaluation
+   
+   • Interview Scoring
+   
+### VoiceAgent
 
 Responsible for:
 
-Audio Recording
-Speech Processing
-Transcript Generation
-TTSAgent
+   • Audio Recording
+
+   • Speech Processing
+   
+   • Transcript Generation
+
+
+### TTSAgent
 
 Responsible for:
 
-Question Narration
-Voice-Based Interview Experience
-ProctoringAgent
+   • Question Narration
+   
+   • Voice-Based Interview Experience
+
+
+### ProctoringAgent
 
 Responsible for:
 
-Candidate Monitoring
-Risk Analysis
-Suspicious Activity Detection
-ReportAgent
+   • Candidate Monitoring
+   
+   • Risk Analysis
+   
+   • Suspicious Activity Detection
+
+
+   
+### ReportAgent
 
 Responsible for:
 
-Score Aggregation
-Final Interview Report Generation
-HRAgent
+   • Score Aggregation
+   
+   • Final Interview Report Generation
+
+
+
+### HRAgent
 
 Responsible for:
 
-Hiring Recommendation
-Salary Suggestion
-HR Summary
-📊 Data Structures
-Resume Evaluation
-{
-  "resume_score": 85,
-  "strengths": [
-    "Machine Learning",
-    "Deep Learning",
-    "NLP"
-  ],
-  "missing_skills": [
-    "FastAPI",
-    "Vector Databases"
-  ],
-  "recommendation": "Proceed"
-}
-Interview Report
-{
-  "candidate_name": "PH ARVIND SHARMA",
-  "text_score": 78,
-  "voice_score": 82,
-  "risk_score": 5,
-  "final_score": 80,
-  "recommendation": "Proceed"
-}
-HR Decision
-{
-  "candidate_name": "PH ARVIND SHARMA",
-  "status": "Selected",
-  "salary_band": "Mid-Senior Level",
-  "joining_recommendation": "Recommended for Hiring"
-}
-🛠️ Tech Stack
-Frontend
-Streamlit
-Backend
-FastAPI
-AI & LLM
-Groq
-Llama Models
-Whisper
-Computer Vision
-OpenCV
-YOLOv10
-Vector Database
-Qdrant
-Language
-Python
-📂 Project Structure
+   • Hiring Recommendation
+   
+   • Salary Suggestion
+   
+   • HR Summary
+
+
+
+## Data Structures
+
+### Resume Evaluation
+
+<img width="1536" height="1024" alt="448adb3b-f734-4f59-9c1f-2ad1ea6567f2" src="https://github.com/user-attachments/assets/a5ac8851-a5a5-4452-92e0-787c9d3de955" />
+
+
+
+
+## Tech Stack
+
+#### Frontend
+
+  • Streamlit
+
+
+  
+#### Backend
+
+  • FastAPI
+
+
+  #### AI & LLM
+  
+   • Groq
+   
+   • Llama Models
+   
+   • Whisper
+
+   
+#### Computer Vision
+
+   • OpenCV
+   
+   • YOLOv10
+
+   
+#### Vector Database
+
+   • Qdrant
+
+   
+#### Language
+
+    • Python
+
+
+    
+## Project Structure
 AI-Recruitment-Agent/
 
 ├── app.py
@@ -376,27 +420,43 @@ AI-Recruitment-Agent/
 ├── models/
 
 └── .env
-⚙️ Installation
-Clone Repository
+
+
+
+## Installation
+
+### Clone Repository
+
 git clone <repository-url>
 
 cd AI-Recruitment-Agent
-Create Virtual Environment
-Windows
+
+
+### Create Virtual Environment
+#### Windows
+
 python -m venv .venv
 
 .venv\Scripts\activate
-Linux / Mac
+
+#### Linux / Mac
+
 python3 -m venv .venv
 
 source .venv/bin/activate
-Install Dependencies
+
+
+#### Install Dependencies
+
 pip install -r requirements.txt
 
 Generate requirements file:
 
 pip freeze > requirements.txt
-Create .env
+
+
+#### Create .env
+
 GROQ_API_KEY=your_key
 
 MODEL_NAME=llama-3.3-70b-versatile
@@ -404,25 +464,35 @@ MODEL_NAME=llama-3.3-70b-versatile
 QDRANT_URL=your_qdrant_url
 
 QDRANT_API_KEY=your_qdrant_api_key
-Run Streamlit
+
+
+#### Run Streamlit
 streamlit run app.py
-Run FastAPI
+
+
+#### Run FastAPI
 uvicorn api.main:app --reload
 
 Swagger Documentation:
 
 http://127.0.0.1:8000/docs
-🔒 Demo vs Production
+
+
+## Demo vs Production
+
 Important Note
 
 The current version exposes:
 
-Interview Report Page
-HR Dashboard
+   • Interview Report Page
+   
+   •HR Dashboard
 
 for demonstration purposes.
 
+
 In a production environment:
+
 
 Candidate Access
 Resume Submission
