@@ -93,61 +93,80 @@ Risk score generated automatically.
 
 Generates:
 
-Text Interview Score
-Voice Interview Score
-Risk Score
-Final Score
-Recommendation
+   • Text Interview Score
+   
+   • Voice Interview Score
+   
+   • Risk Score
+   
+   • Final Score
+   
+   • Recommendation
+
+
+   
 7. HR Dashboard
 
 Generates:
 
-Hiring Recommendation
-Salary Band
-HR Summary
-Joining Recommendation
-Final Hiring Decision
-🏗️ System Architecture
-Resume Upload
-      │
-      ▼
-Recruiter Agent
-      │
-      ▼
-Qdrant Vector Database
-      │
-      ▼
-Candidate Search
-      │
-      ▼
-Interview Agent
-      │
-      ├─────────────┐
-      ▼             ▼
+   • Hiring Recommendation
+
+   • Salary Band
+   
+   • HR Summary
+   
+   • Joining Recommendation
+   
+   • Final Hiring Decision
+
+   
+ System Architecture
+
+ 
+   Resume Upload
+         │
+         ▼
+   Recruiter Agent
+         │
+         ▼
+   Qdrant Vector Database
+         │
+         ▼
+   Candidate Search
+         │
+         ▼
+   Interview Agent
+         │
+         ├─────────────┐
+         ▼             ▼
 Text Round    Voice Round
-                    │
-                    ▼
-             Whisper STT
-                    │
-                    ▼
-             Evaluation
-                    │
-                    ▼
-             Report Agent
-                    ▲
-                    │
-            Proctoring Agent
-                    │
-            YOLOv10 + OpenCV
-                    │
-                    ▼
-               Risk Score
-                    │
-                    ▼
-                HR Agent
-                    │
-                    ▼
-             Hiring Decision
+                       │
+                       ▼
+                Whisper STT
+                       │
+                       ▼
+                Evaluation
+                       │
+                       ▼
+                Report Agent
+                       ▲
+                       │
+               Proctoring Agent
+                       │
+               YOLOv10 + OpenCV
+                       │
+                       ▼
+                  Risk Score
+                       │
+                       ▼
+                   HR Agent
+                       │
+                       ▼
+                Hiring Decision
+
+
+
+                
 📄 Application Pages
 Page 1 – Resume Screening
 What It Does
