@@ -20,15 +20,22 @@ RecruitAI addresses these challenges by automating the entire recruitment workfl
 ### Key Features
 1. Resume Screening
   • Upload candidate resumes
+
   • Match resumes against job descriptions
+  
   • Identify strengths and missing skills
+  
   • Generate candidate score
+  
   • AI-powered recommendation
 
-2. Candidate Search
+3. Candidate Search
   • Semantic candidate search
+
   • Natural language queries
+  
   • Vector similarity search using Qdrant
+
 
 Example:
 Machine Learning Engineer with NLP experience
