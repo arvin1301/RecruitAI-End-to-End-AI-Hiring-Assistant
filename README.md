@@ -124,17 +124,29 @@ Generates:
 
  
    Resume Upload
+   
          │
+         
          ▼
+         
    Recruiter Agent
+   
          │
+         
          ▼
+         
    Qdrant Vector Database
+   
          │
+         
          ▼
+         
    Candidate Search
+   
          │
+         
          ▼
+         
    Interview Agent
          │
          ├─────────────┐
