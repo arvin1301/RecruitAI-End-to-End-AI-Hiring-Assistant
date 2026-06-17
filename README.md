@@ -126,7 +126,6 @@ Generates:
    Resume Upload
    
          │
-         
          ▼
          
    Recruiter Agent
