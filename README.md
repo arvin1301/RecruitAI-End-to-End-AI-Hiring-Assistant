@@ -120,68 +120,12 @@ Generates:
    • Final Hiring Decision
 
    
- System Architecture
-
  
-   Resume Upload
-   
-         │
-         ▼
-         
-   Recruiter Agent
-   
-         │
-         ▼
-         
-   Qdrant Vector Database
-   
-         │
-         ▼
-         
-   Candidate Search
-   
-         │
-         ▼
-         
-   Interview Agent
-         │
-         ├─────────────┐
-         ▼             ▼
-         
-Text Round    Voice Round
-                       │
-                       ▼
-                       
-                Whisper STT
-                       │
-                       ▼
-                       
-                Evaluation
-                       │
-                       ▼
-                       
-                Report Agent
-                       ▲
-                       │
-                       
-               Proctoring Agent
-                       │
-                       
-               YOLOv10 + OpenCV
-                       │
-                       ▼
-                       
-                  Risk Score
-                       │
-                       ▼
-                       
-                   HR Agent
-                       │
-                       ▼
-                       
-                Hiring Decision
+ ### System Architecture
 
+ <img width="1024" height="1536" alt="8d37b328-0525-4140-b57d-0056436903c5" src="https://github.com/user-attachments/assets/23f7182d-fc47-4d29-b138-668d0d647aa9" />
 
+  
 
                 
 📄 Application Pages
