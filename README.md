@@ -32,7 +32,7 @@ RecruitAI addresses these challenges by automating the entire recruitment workfl
    • AI-powered recommendation
 
 
-2. Candidate Search
+#### 2. Candidate Search
    
    • Semantic candidate search
 
@@ -44,7 +44,7 @@ Example:
 Machine Learning Engineer with NLP experience
 
 
-3. AI Text Interview
+#### 3. AI Text Interview
    
    • Dynamic interview question generation
 
@@ -57,7 +57,7 @@ Machine Learning Engineer with NLP experience
    • Accuracy assessment
 
    
-4. AI Voice Interview
+#### 4. AI Voice Interview
 
    • AI asks questions verbally
 
@@ -69,7 +69,7 @@ Machine Learning Engineer with NLP experience
 
 
    
-5. AI Proctoring
+#### 5. AI Proctoring
 
 Real-time candidate monitoring using:
 
@@ -89,7 +89,7 @@ Risk score generated automatically.
 
 
 
-6. Interview Report
+#### 6. Interview Report
 
 Generates:
 
@@ -105,7 +105,7 @@ Generates:
 
 
    
-7. HR Dashboard
+#### 7. HR Dashboard
 
 Generates:
 
@@ -129,14 +129,23 @@ Generates:
   
 
                 
-📄 Application Pages
+### Application Pages
+
 Page 1 – Resume Screening
+
 What It Does
-Upload Resume
-Upload Job Description
-Resume Evaluation
-Skill Gap Analysis
-Data Flow
+
+   • Upload Resume
+   
+   • Upload Job Description
+   
+   • Resume Evaluation
+   
+   • Skill Gap Analysis
+
+
+   
+#### Data Flow
 Resume Upload
       ↓
 AI Reads Resume
@@ -146,11 +155,16 @@ Compare With Job Description
 Generate Score
       ↓
 Store Candidate Profile
-Output
-Resume Score
-Strengths
-Missing Skills
-Recommendation
+
+
+#### Output
+
+   • Resume Score
+   • Strengths
+   • Missing Skills
+   • Recommendation
+
+
 Page 2 – Candidate Search
 What It Does
 
