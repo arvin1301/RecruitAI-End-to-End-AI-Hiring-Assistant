@@ -123,7 +123,8 @@ Generates:
  
  ### System Architecture
 
- <img width="1024" height="1536" alt="8d37b328-0525-4140-b57d-0056436903c5" src="https://github.com/user-attachments/assets/23f7182d-fc47-4d29-b138-668d0d647aa9" />
+<img width="1024" height="1536" alt="e5508de3-4630-4eb7-bd75-5671bfd2be4easas" src="https://github.com/user-attachments/assets/5d035303-5b52-43ca-8ab1-1d3eb8e82225" />
+
 
   
 
