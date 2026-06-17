@@ -19,6 +19,7 @@ RecruitAI addresses these challenges by automating the entire recruitment workfl
 
 ### Key Features
 1. Resume Screening
+
   • Upload candidate resumes
 
   • Match resumes against job descriptions
