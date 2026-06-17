@@ -1,0 +1,17 @@
+{
+    "candidate_name": "PH ARVIND SHARMA",
+    "resume_score": 70,
+    "interview_score": 75,
+    "risk_score": 10,
+    "final_score": 74.5,
+    "resume_strengths": [
+        "Machine Learning",
+        "Deep Learning",
+        "NLP"
+    ],
+    "missing_skills": [
+        "FastAPI",
+        "Vector Databases"
+    ],
+    "recommendation": "Hire"
+}

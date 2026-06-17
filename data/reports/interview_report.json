@@ -1,0 +1,28 @@
+{
+    "candidate_name": "Mike",
+    "text_score": 75.89,
+    "voice_score": 3.33,
+    "risk_score": 30,
+    "final_score": 33.61,
+    "recommendation": "Reject",
+    "text_report": {
+        "average_technical_score": 85.0,
+        "average_communication_score": 73.33,
+        "average_accuracy_score": 69.33,
+        "overall_score": 75.89,
+        "recommendation": "Proceed"
+    },
+    "voice_report": {
+        "average_technical_score": 0.0,
+        "average_communication_score": 10.0,
+        "average_accuracy_score": 0.0,
+        "overall_score": 3.33,
+        "recommendation": "Reject"
+    },
+    "risk_report": {
+        "risk_score": 30,
+        "phone_events": 2,
+        "multiple_person_events": 0,
+        "missing_person_events": 0
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "candidate_name": "Parvind Sharma",
+    "candidate_score": 80,
+    "skills_match": 60,
+    "experience_match": 80,
+    "education_match": 80,
+    "strengths": [
+        "Machine Learning",
+        "Deep Learning",
+        "Natural Language Processing",
+        "Computer Vision"
+    ],
+    "missing_skills": [
+        "FastAPI",
+        "LangChain",
+        "Vector Databases"
+    ],
+    "recommendation": "Recommended for further evaluation"
+}
