@@ -17,7 +17,7 @@ Lack of interview monitoring
 
 RecruitAI addresses these challenges by automating the entire recruitment workflow using AI.
 
-✨ Key Features
+### Key Features
 1. Resume Screening
 Upload candidate resumes
 Match resumes against job descriptions
