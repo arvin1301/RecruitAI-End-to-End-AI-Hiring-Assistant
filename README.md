@@ -17,55 +17,77 @@ Lack of interview monitoring
 
 RecruitAI addresses these challenges by automating the entire recruitment workflow using AI.
 
+
 ### Key Features
 1. Resume Screening
 
-  • Upload candidate resumes
+   • Upload candidate resumes
 
-  • Match resumes against job descriptions
+   • Match resumes against job descriptions
   
-  • Identify strengths and missing skills
+   • Identify strengths and missing skills
   
-  • Generate candidate score
+   • Generate candidate score
   
-  • AI-powered recommendation
+   • AI-powered recommendation
 
-3. Candidate Search
-  • Semantic candidate search
 
-  • Natural language queries
+2. Candidate Search
+   
+   • Semantic candidate search
+
+   • Natural language queries
   
-  • Vector similarity search using Qdrant
-
+   • Vector similarity search using Qdrant
 
 Example:
 Machine Learning Engineer with NLP experience
 
+
 3. AI Text Interview
-Dynamic interview question generation
-Role-based interview questions
-Technical evaluation
-Communication evaluation
-Accuracy assessment
+   
+   • Dynamic interview question generation
+
+   • Role-based interview questions
+
+   • Technical evaluation
+
+   • Communication evaluation
+
+   • Accuracy assessment
+
+   
 4. AI Voice Interview
-AI asks questions verbally
-Candidate responds using microphone
-Whisper Speech-to-Text transcription
-Automatic answer evaluation
+
+   • AI asks questions verbally
+
+   • Candidate responds using microphone
+   
+   • Whisper Speech-to-Text transcription
+
+   • Automatic answer evaluation
+
+
+   
 5. AI Proctoring
 
 Real-time candidate monitoring using:
 
-OpenCV
-YOLOv10
+   • OpenCV
+   
+   • YOLOv10
 
 Current detections:
 
-Multiple People
-Mobile Phone Usage
-Candidate Absence
+   • Multiple People
+   
+   • Mobile Phone Usage
+   
+   • Candidate Absence
 
 Risk score generated automatically.
+
+
 
 6. Interview Report
 
