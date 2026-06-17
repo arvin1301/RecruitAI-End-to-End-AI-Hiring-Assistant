@@ -131,48 +131,54 @@ Generates:
    Recruiter Agent
    
          │
-         
          ▼
          
    Qdrant Vector Database
    
          │
-         
          ▼
          
    Candidate Search
    
          │
-         
          ▼
          
    Interview Agent
          │
          ├─────────────┐
          ▼             ▼
+         
 Text Round    Voice Round
                        │
                        ▼
+                       
                 Whisper STT
                        │
                        ▼
+                       
                 Evaluation
                        │
                        ▼
+                       
                 Report Agent
                        ▲
                        │
+                       
                Proctoring Agent
                        │
+                       
                YOLOv10 + OpenCV
                        │
                        ▼
+                       
                   Risk Score
                        │
                        ▼
+                       
                    HR Agent
                        │
                        ▼
+                       
                 Hiring Decision
 
 
