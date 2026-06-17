@@ -5,7 +5,7 @@ RecruitAI is an AI-powered recruitment platform that automates the complete hiri
 
 The platform helps recruiters streamline candidate screening, interviewing, evaluation, and hiring decisions while reducing manual effort and improving consistency.
 
-🎯 Problem Statement
+## Problem Statement
 
 Traditional recruitment processes involve:
 
