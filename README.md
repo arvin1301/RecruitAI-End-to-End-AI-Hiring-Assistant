@@ -5,7 +5,7 @@ RecruitAI is an AI-powered recruitment platform that automates the complete hiri
 
 The platform helps recruiters streamline candidate screening, interviewing, evaluation, and hiring decisions while reducing manual effort and improving consistency.
 
-## Problem Statement
+### Problem Statement
 
 Traditional recruitment processes involve:
 
@@ -19,19 +19,20 @@ RecruitAI addresses these challenges by automating the entire recruitment workfl
 
 ### Key Features
 1. Resume Screening
-Upload candidate resumes
-Match resumes against job descriptions
-Identify strengths and missing skills
-Generate candidate score
-AI-powered recommendation
+  • Upload candidate resumes
+  • Match resumes against job descriptions
+  • Identify strengths and missing skills
+  • Generate candidate score
+  • AI-powered recommendation
+
 2. Candidate Search
-Semantic candidate search
-Natural language queries
-Vector similarity search using Qdrant
+  • Semantic candidate search
+  • Natural language queries
+  • Vector similarity search using Qdrant
 
 Example:
-
 Machine Learning Engineer with NLP experience
+
 3. AI Text Interview
 Dynamic interview question generation
 Role-based interview questions
